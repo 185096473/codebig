@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+	    <ul>
+			<%#rferer  注释%>  
+			<%# <%%>脚本控制标签   <%=%> 输出数据到模板  <%_ %>去除前面的空格 <%  _%>去除后面的空格  %>
+			<% for(var i=0;i<list.length;i++){%>
+			      <li><%=list[i].name%>	</li>
+			<%}%>
+		</ul>
+	</div>
+</body>
+</html>
